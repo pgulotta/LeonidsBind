@@ -60,12 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
-    <AndroidResource Include="..\..\..\Source\LeonidsBind\com.pgulotta.leonidstest\Resources\drawable\confeti2.png" />
-    <AndroidResource Include="..\..\..\Source\LeonidsBind\com.pgulotta.leonidstest\Resources\drawable\confeti3.png" />
-    <AndroidResource Include="..\..\..\Source\LeonidsBind\com.pgulotta.leonidstest\Resources\drawable\dust.png" />
-    <AndroidResource Include="..\..\..\Source\LeonidsBind\com.pgulotta.leonidstest\Resources\drawable\star.png" />
-    <AndroidResource Include="..\..\..\Source\LeonidsBind\com.pgulotta.leonidstest\Resources\drawable\star_pink.png" />
-    <AndroidResource Include="..\..\..\Source\LeonidsBind\com.pgulotta.leonidstest\Resources\drawable\star_white.png" />
     <AndroidResource Include="Resources\values\arrays.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
