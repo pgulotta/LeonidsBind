@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leonids.xambind.android", "leonids.xambind.android\leonids.xambind.android.csproj", "{D763F7F0-5989-4372-B4C3-67C6E39BE5B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.pgulotta.leonidstest", "com.pgulotta.leonidstest\com.pgulotta.leonidstest.csproj", "{B296BA0C-DACD-4188-A3BC-516F8BF16F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B296BA0C-DACD-4188-A3BC-516F8BF16F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B296BA0C-DACD-4188-A3BC-516F8BF16F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B296BA0C-DACD-4188-A3BC-516F8BF16F56}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B296BA0C-DACD-4188-A3BC-516F8BF16F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B296BA0C-DACD-4188-A3BC-516F8BF16F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B296BA0C-DACD-4188-A3BC-516F8BF16F56}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D763F7F0-5989-4372-B4C3-67C6E39BE5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D763F7F0-5989-4372-B4C3-67C6E39BE5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D763F7F0-5989-4372-B4C3-67C6E39BE5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D763F7F0-5989-4372-B4C3-67C6E39BE5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

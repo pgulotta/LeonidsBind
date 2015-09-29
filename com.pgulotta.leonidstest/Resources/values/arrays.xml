@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="leonidstest">
+		<item>Select a Leonids</item>
+        <item>One Shot Simple</item>
+        <item>One Shot Advanced</item>
+        <item>Emiter Simple</item>
+        <item>Emiting on Background</item>
+        <item>Emiter Intermediate</item>
+        <item>Emiter Time Limited</item>
+        <item>Emit with Gravity</item>
+        <item>Follow Touch</item>
+        <item>Animated Particles</item>
+        <item>Fireworks</item>
+        <item>Confetti [Rabbit and Eggs]</item>
+		<item>Dust [Rabbit and Eggs]</item>
+        <item>Stars [Rabbit and Eggs]</item>
+    </string-array>
+</resources>
