@@ -106,7 +106,7 @@ namespace com.pgulotta.leonidstest
 
         void EmitTimeLimited()
         {
-            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_pink, 1000);
+            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_black, 1000);
             mParticleSystem1.SetScaleRange(0.7f, 1.3f);
             mParticleSystem1.SetSpeedModuleAndAngleRange(0.07f, 0.16f, 0, 180);
             mParticleSystem1.SetRotationSpeedRange(90, 180);
@@ -117,7 +117,7 @@ namespace com.pgulotta.leonidstest
 
         void EmitBackgroundSimple()
         {
-            mParticleSystem1 = new ParticleSystem(this, 50, Resource.Drawable.star_pink, 1000, Resource.Id.main_layout);
+            mParticleSystem1 = new ParticleSystem(this, 50, Resource.Drawable.star_black, 1000, Resource.Id.main_layout);
             mParticleSystem1.SetSpeedRange(0.1f, 0.25f);
             mParticleSystem1.Emit(mTextView, 100);
         }
@@ -171,7 +171,7 @@ namespace com.pgulotta.leonidstest
 
         void EmitWithGravity()
         {
-            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_pink, 3000);
+            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_black, 3000);
             mParticleSystem1.SetAcceleration(0.00013f, 90);
             mParticleSystem1.SetSpeedByComponentsRange(0f, 0f, 0.05f, 0.1f);
             mParticleSystem1.SetFadeOut(200, new AccelerateInterpolator());
@@ -180,7 +180,7 @@ namespace com.pgulotta.leonidstest
 
         void Fireworks()
         {
-            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_pink, 800);
+            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_black, 800);
             mParticleSystem1.SetScaleRange(0.7f, 1.3f);
             mParticleSystem1.SetSpeedRange(0.1f, 0.25f);
             mParticleSystem1.SetRotationSpeedRange(90, 180);
@@ -197,7 +197,7 @@ namespace com.pgulotta.leonidstest
 
         void OneShotAdvanced()
         {
-            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_pink, 800);
+            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_black, 800);
             mParticleSystem1.SetScaleRange(0.7f, 1.3f);
             mParticleSystem1.SetSpeedRange(0.1f, 0.25f);
             mParticleSystem1.SetAcceleration(0.0001f, 90);
@@ -208,21 +208,21 @@ namespace com.pgulotta.leonidstest
 
         void EmiterSimple()
         {
-            mParticleSystem1 = new ParticleSystem(this, 50, Resource.Drawable.star_pink, 1000);
+            mParticleSystem1 = new ParticleSystem(this, 50, Resource.Drawable.star_black, 1000);
             mParticleSystem1.SetSpeedRange(0.1f, 0.25f);
             mParticleSystem1.Emit(mTextView, 100);
         }
 
         void OneShotSimple()
         {
-            mParticleSystem1 = new ParticleSystem(this, 50, Resource.Drawable.star_pink, 1000);
+            mParticleSystem1 = new ParticleSystem(this, 50, Resource.Drawable.star_black, 1000);
             mParticleSystem1.SetSpeedRange(0.1f, 0.25f);
             mParticleSystem1.OneShot(mTextView, 100);
         }
 
         void EmiterIntermediate()
         {
-            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_pink, 1000);
+            mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_black, 1000);
             mParticleSystem1.SetScaleRange(0.7f, 1.3f);
             mParticleSystem1.SetSpeedModuleAndAngleRange(0.07f, 0.16f, 0, 180);
             mParticleSystem1.SetRotationSpeedRange(90, 180);
@@ -239,7 +239,7 @@ namespace com.pgulotta.leonidstest
             switch (e.Action)
             {
                 case MotionEventActions.Down:
-                    mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_pink, 800);
+                    mParticleSystem1 = new ParticleSystem(this, 100, Resource.Drawable.star_black, 800);
                     mParticleSystem1.SetScaleRange(0.7f, 1.3f);
                     mParticleSystem1.SetSpeedRange(0.05f, 0.1f);
                     mParticleSystem1.SetRotationSpeedRange(90, 180);
