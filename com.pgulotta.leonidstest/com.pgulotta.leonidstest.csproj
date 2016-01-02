@@ -62,6 +62,7 @@
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\arrays.xml" />
     <AndroidResource Include="Resources\drawable-xhdpi\star_black.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\star_dark.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\leonids.xambind.android\leonids.xambind.android.csproj">

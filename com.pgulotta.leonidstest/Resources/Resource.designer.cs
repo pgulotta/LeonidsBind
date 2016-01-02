@@ -1447,8 +1447,8 @@ namespace com.pgulotta.leonidstest
 			// aapt resource value: 0x7f020049
 			public const int ic_launcher = 2130837577;
 			
-			// aapt resource value: 0x7f02004e
-			public const int notification_template_icon_bg = 2130837582;
+			// aapt resource value: 0x7f02004f
+			public const int notification_template_icon_bg = 2130837583;
 			
 			// aapt resource value: 0x7f02004a
 			public const int star = 2130837578;
@@ -1457,10 +1457,13 @@ namespace com.pgulotta.leonidstest
 			public const int star_black = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int star_pink = 2130837580;
+			public const int star_dark = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int star_white = 2130837581;
+			public const int star_pink = 2130837581;
+			
+			// aapt resource value: 0x7f02004e
+			public const int star_white = 2130837582;
 			
 			static Drawable()
 			{
